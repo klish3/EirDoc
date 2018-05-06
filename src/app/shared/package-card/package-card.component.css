@@ -1,12 +1,5 @@
-
-
-body {
-    font-family: "Lato", sans-serif;
-}
-
-
-/*  */
-/* .eir-package-lg {
+.eir-package-lg {
+    float: left;
     width: 216px;
     height: 290px;
     background-color: #fff;
@@ -39,4 +32,4 @@ body {
     width: 100%;
     padding: 10px;
     text-align: right;
-} */
+}

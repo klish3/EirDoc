@@ -1,0 +1,36 @@
+.library-input-box {
+    border-bottom: 1px solid #8888;
+}
+.library-input {
+    width: 90%;
+    height: 50px;
+    border: none;
+    font-size:2em;   
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#8888;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#8888;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#8888;
+}
+.library-input:focus {
+    border: none;
+}
+.library-searchbar {
+    width: 100%;
+    border-bottom: 1px solid #8888;
+    padding-right: 2em;
+
+}
+.library-search-btn {
+    float: right;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 2rem;
+}
