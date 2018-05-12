@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";
-
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
 
 .eir-container {
     padding-top:75px;
+}
+.dropdown-menu {
+    top: 40px;
+    left: -110px;
 }

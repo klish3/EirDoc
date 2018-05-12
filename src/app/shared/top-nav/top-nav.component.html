@@ -4,18 +4,8 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/library" routerLinkActive="active">Library <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/schedule" routerLinkActive="active">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <span class="nav-link disabled" routerLink="/chat" routerLinkActive="active">Chat</span>
-          </li>
-        </ul>
-    <ul class="navbar-nav ml-auto">
+
+    <ul class="navbar-nav mr-auto">
       <!-- <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -27,8 +17,8 @@
       </li>
       <li class="nav-item dropdown">
         <div ngbDropdown class="d-inline-block">
-          
-          <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>User</a>
+
+          <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>{{user}}</a>
           <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
             <button class="dropdown-item">Action - 1</button>
             <button class="dropdown-item">Another Action</button>
@@ -37,9 +27,20 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/library" routerLinkActive="active">Library <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/schedule" routerLinkActive="active">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <span class="nav-link disabled" routerLink="/chat" routerLinkActive="active">Chat</span>
+        </li>
+      </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>

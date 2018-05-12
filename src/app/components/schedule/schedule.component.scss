@@ -1,0 +1,29 @@
+.eir-schedule-container {
+    min-height: 100vh;
+}
+
+.addEventBtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #7BD5D5;
+    color: #fff;
+    position: fixed;
+    z-index: 9;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 100px;
+    box-shadow: 1px 2px 8px #888888;
+
+    &:hover{
+        background-color: #418888;
+    }
+
+    &:active {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+}
