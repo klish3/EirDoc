@@ -1,0 +1,59 @@
+<ngb-tabset #t="ngbTabset">
+  <ngb-tab id="tab-selectbyid1" title="Profile">
+    <ng-template ngbTabContent>
+        <div class="row">
+            <div class="col-lg-12">
+              <label for=""><strong>Alerts</strong></label>
+
+              <p>cards</p>
+            </div>
+          </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <label for=""><strong>Summary</strong></label>
+          <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+        <div class="col-lg-6">
+          <label for=""><strong>Bio Metrics</strong></label>
+          <div class="col-lg-6">figure</div>
+          <div class="col-lg-6">
+              <label for=""><strong>Height</strong></label>
+              <p>1.2m</p>
+              <label for=""><strong>Wieght</strong></label>
+              <p>1.2m</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6"><label for=""><strong>Profile</strong></label></div>
+          <div class="col-lg-6"><label for=""><strong>History</strong></label></div>
+        </div>
+
+      <button class="btn btn-outline-primary" (click)="t.select('tab-selectbyid2')">Selected tab with "tab-selectbyid2" id</button>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-selectbyid2">
+    <ng-template ngbTabTitle>
+      <b>Fancy</b> title</ng-template>
+    <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+      <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
+        beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
+        PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero
+        magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard
+        ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente
+        accusamus tattooed echo park.</p>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab id="tab-selectbyid3">
+    <ng-template ngbTabTitle>
+      <b>Fancy</b> title</ng-template>
+    <ng-template ngbTabContent>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+      <p> Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson
+        biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
+<!--   
+  <p>
+    <button class="btn btn-outline-primary" (click)="t.select('tab-selectbyid2')">Selected tab with "tab-selectbyid2" id</button>
+  </p> -->

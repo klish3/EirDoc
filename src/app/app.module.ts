@@ -19,6 +19,9 @@ import { PackageCardComponent } from './shared/package-card/package-card.compone
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from 'angular-calendar';
 import { DemoUtilsModule } from './shared/calendar-utils/module';
+import { ChatUserListComponent } from './components/chat/chat-user-list/chat-user-list.component';
+import { ChatConversationComponent } from './components/chat/chat-conversation/chat-conversation.component';
+import { ChatUserDetailComponent } from './components/chat/chat-user-detail/chat-user-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +31,10 @@ import { DemoUtilsModule } from './shared/calendar-utils/module';
     ScheduleComponent,
     LibrarySideNavComponent,
     PackageCardComponent,
-    HomeComponent
+    HomeComponent,
+    ChatUserListComponent,
+    ChatConversationComponent,
+    ChatUserDetailComponent
   ],
   imports: [
     BrowserModule,

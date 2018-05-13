@@ -9,3 +9,7 @@
     top: 40px;
     left: -110px;
 }
+.row-new {
+    display: flex;
+    flex-wrap: wrap;
+}
